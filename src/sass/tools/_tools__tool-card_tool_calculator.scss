@@ -1,0 +1,9 @@
+.tools__tool-card_tool_calculator::before {
+    background-color: var(--Blue);
+}
+
+@media screen and (min-width: 56rem) {
+    .tools__tool-card_tool_calculator{
+        grid-area: 1 / 3 / 3 / 4;
+    }
+}

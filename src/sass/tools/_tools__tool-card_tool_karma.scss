@@ -1,0 +1,9 @@
+.tools__tool-card_tool_karma::before {
+    background-color: var(--Orange);
+}
+
+@media screen and (min-width: 56rem) {
+    .tools__tool-card_tool_karma {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+}

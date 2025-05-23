@@ -1,0 +1,18 @@
+.tools__tool-card {
+    margin: 0 2rem 2rem 2rem;
+    max-width: 21.875rem;
+    height: 15.625rem;
+
+    border-radius: 0.3125rem;
+
+    padding-right: 1.9375rem;
+
+    align-self: center;
+}
+
+@media screen and (min-width: 56rem) {
+    .tools__tool-card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

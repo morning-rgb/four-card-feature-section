@@ -1,0 +1,9 @@
+.tools__tool-card_tool_team-builder::before {
+    background-color: var(--Red);
+}
+
+@media screen and (min-width: 56rem) {
+    .tools__tool-card_tool_team-builder {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+}

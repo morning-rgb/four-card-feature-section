@@ -1,0 +1,9 @@
+.tools__tool-card_tool_supervisor::before {
+    background-color: var(--Cyan);
+}
+
+@media screen and (min-width: 56rem) {
+    .tools__tool-card_tool_supervisor {
+        grid-area: 1 / 1 / 3 / 2;
+    }
+}
